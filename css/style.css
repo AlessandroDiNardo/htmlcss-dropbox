@@ -1,0 +1,64 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col{
+    border: 2px dashed blue;
+}
+/* /regole generali */
+
+
+/* header */
+header{
+    display: flex;
+    height: 100px;
+    min-width: 1024px;
+}
+
+.topbar{
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 15px ;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    background-color: orange;
+}
+
+.for-users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    background-color: orange;
+}
+
+/* header-text */
+
+/* /header-text */
+/* /header */
+
+
+/* main */
+
+/* /main */
+
+
+/* footer */
+
+/* /footer */
