@@ -127,10 +127,7 @@ header{
 
 
 /* main */
-main{
-    width: 100vw;
-    height: 100vh;
-}
+
 /* jumbo block */
 .container-jumbo{
     display: flex;
